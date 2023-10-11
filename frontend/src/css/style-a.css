@@ -1,0 +1,160 @@
+.dd::after {
+	content: "";
+	display: inline-block;
+	width: 0.5rem;
+	height: 0.5rem;
+	margin-left: 0.5rem;
+	vertical-align: 0rem;
+	background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 10 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0l5 5 5-5z'/%3E%3C/svg%3E");
+	background-repeat: no-repeat;
+}
+/* 
+.train-text {
+	text-indent: -200px;
+	animation: train 5s linear infinite;
+}
+
+@keyframes train {
+	0% {
+		text-indent: 0px;
+	}
+	100% {
+		text-indent: 100%;
+	}
+}
+
+.train-text {
+	white-space: nowrap;
+	overflow: hidden;
+	animation: train 20s linear infinite;
+}
+
+@keyframes train {
+	0% {
+		transform: translateX(-100%);
+	}
+	100% {
+		transform: translateX(100%);
+	}
+} */
+
+.text {
+	position: absolute;
+	top: 0;
+	left: 100%;
+	white-space: nowrap;
+	animation: train 20s linear infinite;
+}
+
+@keyframes train {
+	0% {
+		left: 100%;
+	}
+	100% {
+		left: -100%;
+	}
+}
+
+.DropDown a {
+	color: black !important;
+	padding: 0.1rem !important;
+}
+
+.DropDown a:hover {
+	background: rgb(213, 213, 213) !important;
+	padding: 0.1rem;
+}
+
+.shadow {
+	box-shadow: "0px 0px 20px rgba(0, 0, 0, 0.25)";
+}
+
+.bio {
+	display: inline;
+	width: 100px;
+	height: 100px;
+}
+
+.boo {
+	width: "54px";
+	height: "33px";
+	position: "absolute";
+	vertical-align: "middle";
+	margin-top: "33px";
+	margin-left: "-77px";
+	border: 0px;
+	font-weight: bold;
+	font-style: normal;
+	font-variant: normal;
+	font-stretch: normal;
+	font-size: 20px;
+	line-height: normal;
+	font-family: Arial;
+	text-align: center;
+	color: rgb(224, 107, 125);
+	padding: 0px;
+	background: none;
+}
+
+.boo1 {
+	width: 54px;
+	height: 33px;
+	position: absolute;
+	vertical-align: middle;
+	margin-top: 33px;
+	margin-left: -77px;
+	border: 0px;
+	font-weight: bold;
+	font-style: normal;
+	font-variant: normal;
+	font-stretch: normal;
+	font-size: 20px;
+	line-height: normal;
+	font-family: Arial;
+	text-align: center;
+	color: rgb(76, 197, 205);
+	padding: 0px;
+	background: none;
+}
+
+.boo2 {
+	width: 54px;
+	height: 33px;
+	position: absolute;
+	vertical-align: middle;
+	margin-top: 33px;
+	margin-left: -77px;
+	border: 0px;
+	font-weight: bold;
+	font-style: normal;
+	font-variant: normal;
+	font-stretch: normal;
+	font-size: 20px;
+	line-height: normal;
+	font-family: Arial;
+	text-align: center;
+	color: rgb(150, 190, 75);
+	padding: 0px;
+	background: none;
+}
+
+.boo3 {
+	width: 54px;
+	height: 33px;
+	position: absolute;
+	vertical-align: middle;
+	margin-top: 33px;
+	margin-left: -77px;
+	border: 0px;
+	font-weight: bold;
+	font-style: normal;
+	font-variant: normal;
+	font-stretch: normal;
+	font-size: 20px;
+	line-height: normal;
+	font-family: Arial;
+	text-align: center;
+	color: rgb(203, 164, 219);
+	padding: 0px;
+	background: none;
+}
